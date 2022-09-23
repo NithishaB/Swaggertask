@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+body{
+            position:absolute;
+        }
+        h3
+        {
+        font-size:20px;color: rgb(0, 1, 2);
+        text-shadow: 0 1px 1px rgb(128, 128, 64),0 1px 1px rgb(248, 6, 6), 0 1px 2px rgb(255, 255, 255);}
+      div{
+        border-radius: 6px;
+        position: fixed;
+        top:20%;
+        left: 40%;
+        background-color: rgb(192, 192, 192);
+        box-shadow: 0 5px 10px black,0px 6px 3px black;
+      }
+      div:hover
+      { 
+      box-shadow: 0 5px 10px black,0 8px 15px black,4px 10px 10px black;}
+    
+      label{
+    
+        font-size: 16px;
+        text-shadow:0 1px 1px rgb(58, 49, 49),0 1px 1.2px rgb(243, 237, 237),1px 1px 1px white;
+        padding-bottom: 10px;
+      }
+      input
+      {
+      margin-left: 20px;width: 200px;height: 18px;
+    margin-right: 20px;border: none;
+    box-shadow: 1px 1px 2px black,1px 1px 3px black;
+  }
+  input:hover
+  {
+  box-shadow: 0px 1px 4px rgb(89, 0, 255),0px 1px 4px rgb(89, 0, 255),1px 2px 3px rgb(28, 140, 231);
+  }
+    button
+    {
+    border-radius: 5px 7px;
+    border-color: rgb(38, 24, 231);
+    color: white;
+    text-shadow: 0 1px 1px black;
+    background:linear-gradient(45deg,rgb(235, 14, 150),rgb(58, 8, 197));
+    padding: 5px;
+    width: 80px;
+    box-shadow: 0 5px 10px black,0 7px 10px black;
+    }
